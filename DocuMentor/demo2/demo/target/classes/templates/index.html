@@ -1,0 +1,57 @@
+ <!DOCTYPE html>
+   <html xmlns="http://www.w3.org/1999/xhtml"
+         xmlns:th="http://www.thymeleaf.org">
+   <head>
+       <title>DocuMentor - Home</title>
+       <link rel="stylesheet" th:href="@{/css/index.css}"/>
+   </head>
+   <body>
+
+   <header>
+       <h1>DocuMentor</h1>
+       <div class="tagline">“Talk to your documents like never before.”</div>
+       <button class="theme-toggle" onclick="toggleTheme()" id="modeBtn">Dark Mode</button>
+   </header>
+
+   <div class="container">
+       <p class="intro">
+           DocuMentor is your smart assistant for anything document-related.<br />
+           Whether it's a report, a guide, or a manual - just ask, and get clear answers, effortlessly.
+       </p>
+
+       <div class="features-grid">
+           <div class="feature-card">
+               <div class="feature-icon">🔍</div>
+               <h3>Ask & Get Answers</h3>
+               <p>No more scrolling through pages.
+                   Simply type your question and let DocuMentor find the answer inside your document.</p>
+           </div>
+           <div class="feature-card">
+               <div class="feature-icon">🧠</div>
+               <h3>Understands Content Like You Do</h3>
+               <p>DocuMentor understands your files the way a human would, even if it's detailed or complex.</p>
+           </div>
+           <div class="feature-card">
+               <div class="feature-icon">💬</div>
+               <h3>Natural Chat</h3>
+               <p>Just like messaging a friend.
+                   Have a smooth, back-and-forth chat with DocuMentor to get the clarity you need.</p>
+           </div>
+           <div class="feature-card">
+               <div class="feature-icon">📁</div>
+               <h3>Endless Answers </h3>
+               <p>Upload your documents once and let DocuMentor handle the rest, ready to answer infinite questions.</p>
+           </div>
+       </div>
+
+       <div style="text-align: center;">
+           <a class="btn" onclick="confirmRedirect(event)" th:href="@{/chat}">Start Chatting</a>
+           <p style="text-align: center; font-size: 14px; color: #6366f1;">
+               By clicking "Start Chatting," you will be redirected to sign in via Google.
+           </p>
+       </div>
+   </div>
+
+   <script th:src="@{/js/index.js}"></script>
+   </body>
+   </html>

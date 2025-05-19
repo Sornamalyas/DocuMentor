@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>DocuMentor Chat</title>
+    <link rel="stylesheet" th:href="@{/css/chat.css}" />
+</head>
+
+<body>
+<header>
+    <h1> DocuMentor Chat</h1>
+    <button class="theme-toggle" onclick="toggleTheme()" id="modeBtn">Dark Mode</button>
+</header>
+<p>Welcome ...</p><p th:text="${userName}"> </p>
+
+<div id="chat-container">
+    <!-- File Upload -->
+    <form method="POST" enctype="multipart/form-data" th:action="@{/chat}" onsubmit="showLoading()">
+        <input type="file" name="file" accept=".pdf,.docx,.txt" required />
+        <button class="btn" type="submit">Upload</button>
+        <p>Only one document will be stored at a time</p>
+    </form>
+
+    <p th:text="${message}"></p>
+    <div id="loading">Uploading... Please wait.</div>
+
+    <!-- Chat Area -->
+    <div id="chat-box"></div>
+    <div id="typing">DocuMentor is typing...</div>
+
+    <div style="margin-top: 10px;">
+        <input type="text" id="question" placeholder="Ask something..." />
+        <button class="btn" id= "sendBtn" onclick="ask()" >Send</button>
+        <button class="btn" onclick="reuseLast()">Use Last File</button>
+        <button class="btn" onclick="logout()">Logout</button>
+    </div>
+</div>
+
+<script th:src="@{/js/chat.js}"></script>
+</body>
+</html>

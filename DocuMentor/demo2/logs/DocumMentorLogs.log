@@ -1,0 +1,1665 @@
+2025-04-20 19:57:56    | INFO  |  -  Starting DemoApplication using Java 21.0.6 with PID 11756 (E:\M.Sc.CYBER SECURITY\Semester VI\DistributedComputing\DEMO\demo2\demo\target\classes started by SORNAMALYA SIVAKUMAR in E:\M.Sc.CYBER SECURITY\Semester VI\DistributedComputing\DEMO\demo2)
+2025-04-20 19:57:56    | INFO  |  -  No active profile set, falling back to 1 default profile: "default"
+2025-04-20 19:57:58    | INFO  |  -  MappingMongoConverter initialized successfully
+2025-04-20 19:57:58    | INFO  |  -  Initializing EmbeddingStoreService with dimensions: 384
+2025-04-20 19:57:59    | INFO  |  -  Started DemoApplication in 3.853 seconds (process running for 4.329)
+2025-04-20 19:57:59    | INFO  |  -  DemoApplication started successfully.
+2025-04-20 19:58:31    | INFO  |  -  User logged in: 111851580922821959810
+2025-04-20 19:58:32    | INFO  |  -  Fetching user by email: 22pc34@psgtech.ac.in
+2025-04-20 19:58:36    | INFO  |  -  Fetching user by email: 22pc34@psgtech.ac.in
+2025-04-20 19:58:42    | INFO  |  -  Fetching user by email: 22pc34@psgtech.ac.in
+2025-04-20 19:58:42    | INFO  |  -  Starting process for user: 22pc34@psgtech.ac.in
+2025-04-20 19:58:42    | INFO  |  -  Initializing EmbeddingStoreService with dimensions: 384
+2025-04-20 19:58:42    | INFO  |  -  Attempting to get embedding store for user: 22PC34 - SORNAMALYA S
+2025-04-20 19:58:44    | INFO  |  -  Started interaction - Cohere API by user: 22pc34@psgtech.ac.in
+2025-04-20 19:58:45    | ERROR |  -  Error occurred during search: status code: 503; body: <!DOCTYPE html>
+<html class="" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <meta
+            name="description"
+            content="We're on a journey to advance and democratize artificial intelligence through open source and open science."
+    />
+    <meta property="fb:app_id" content="1321688464574422" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@huggingface" />
+    <meta
+            property="og:title"
+            content="Hugging Face - The AI community building the future."
+    />
+    <meta property="og:type" content="website" />
+
+    <title>Hugging Face - The AI community building the future.</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        main {
+            background-color: white;
+            min-height: 100vh;
+            padding: 7rem 1rem 8rem 1rem;
+            text-align: center;
+            font-family: Source Sans Pro, ui-sans-serif, system-ui, -apple-system,
+            BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
+            sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+            Noto Color Emoji;
+        }
+
+        img {
+            width: 6rem;
+            height: 6rem;
+            margin: 0 auto 1rem;
+        }
+
+        h1 {
+            font-size: 3.75rem;
+            line-height: 1;
+            color: rgba(31, 41, 55, 1);
+            font-weight: 700;
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+
+        p, a {
+            color: rgba(107, 114, 128, 1);
+            font-size: 1.125rem;
+            line-height: 1.75rem;
+            max-width: 28rem;
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+
+        .dark main {
+            background-color: rgb(11, 15, 25);
+        }
+        .dark h1 {
+            color: rgb(209, 213, 219);
+        }
+        .dark p, .dark a {
+            color: rgb(156, 163, 175);
+        }
+    </style>
+    <script>
+        // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+        const key = "_tb_global_settings";
+        let theme = window.matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light";
+        try {
+            const storageTheme = JSON.parse(window.localStorage.getItem(key)).theme;
+            if (storageTheme) {
+                theme = storageTheme === "dark" ? "dark" : "light";
+            }
+        } catch (e) {}
+        if (theme === "dark") {
+            document.documentElement.classList.add("dark");
+        } else {
+            document.documentElement.classList.remove("dark");
+        }
+    </script>
+</head>
+
+<body>
+<main>
+    <img
+            src="https://cdn-media.huggingface.co/assets/huggingface_logo.svg"
+            alt=""
+    />
+    <div>
+        <h1>503</h1>
+        <p>Service Unavailable</p>
+    </div>
+</main>
+</body>
+</html>
+java.lang.RuntimeException: status code: 503; body: <!DOCTYPE html>
+<html class="" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <meta
+            name="description"
+            content="We're on a journey to advance and democratize artificial intelligence through open source and open science."
+    />
+    <meta property="fb:app_id" content="1321688464574422" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@huggingface" />
+    <meta
+            property="og:title"
+            content="Hugging Face - The AI community building the future."
+    />
+    <meta property="og:type" content="website" />
+
+    <title>Hugging Face - The AI community building the future.</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        main {
+            background-color: white;
+            min-height: 100vh;
+            padding: 7rem 1rem 8rem 1rem;
+            text-align: center;
+            font-family: Source Sans Pro, ui-sans-serif, system-ui, -apple-system,
+            BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
+            sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+            Noto Color Emoji;
+        }
+
+        img {
+            width: 6rem;
+            height: 6rem;
+            margin: 0 auto 1rem;
+        }
+
+        h1 {
+            font-size: 3.75rem;
+            line-height: 1;
+            color: rgba(31, 41, 55, 1);
+            font-weight: 700;
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+
+        p, a {
+            color: rgba(107, 114, 128, 1);
+            font-size: 1.125rem;
+            line-height: 1.75rem;
+            max-width: 28rem;
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+
+        .dark main {
+            background-color: rgb(11, 15, 25);
+        }
+        .dark h1 {
+            color: rgb(209, 213, 219);
+        }
+        .dark p, .dark a {
+            color: rgb(156, 163, 175);
+        }
+    </style>
+    <script>
+        // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+        const key = "_tb_global_settings";
+        let theme = window.matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light";
+        try {
+            const storageTheme = JSON.parse(window.localStorage.getItem(key)).theme;
+            if (storageTheme) {
+                theme = storageTheme === "dark" ? "dark" : "light";
+            }
+        } catch (e) {}
+        if (theme === "dark") {
+            document.documentElement.classList.add("dark");
+        } else {
+            document.documentElement.classList.remove("dark");
+        }
+    </script>
+</head>
+
+<body>
+<main>
+    <img
+            src="https://cdn-media.huggingface.co/assets/huggingface_logo.svg"
+            alt=""
+    />
+    <div>
+        <h1>503</h1>
+        <p>Service Unavailable</p>
+    </div>
+</main>
+</body>
+</html>
+	at dev.langchain4j.model.huggingface.DefaultHuggingFaceClient.toException(DefaultHuggingFaceClient.java:97)
+	at dev.langchain4j.model.huggingface.DefaultHuggingFaceClient.embed(DefaultHuggingFaceClient.java:84)
+	at dev.langchain4j.model.huggingface.HuggingFaceEmbeddingModel.embedTexts(HuggingFaceEmbeddingModel.java:85)
+	at dev.langchain4j.model.huggingface.HuggingFaceEmbeddingModel.embedAll(HuggingFaceEmbeddingModel.java:78)
+	at dev.langchain4j.model.embedding.EmbeddingModel.embed(EmbeddingModel.java:34)
+	at dev.langchain4j.model.embedding.EmbeddingModel.embed(EmbeddingModel.java:24)
+	at com.example.demo.chatbot.Searcher.retrieve(Searcher.java:37)
+	at com.example.demo.chatbot.QABot.getAnswer(QABot.java:43)
+	at com.example.demo.controllers.chatController.handleQuestion(chatController.java:121)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.ConcurrentSessionFilter.doFilter(ConcurrentSessionFilter.java:151)
+	at org.springframework.security.web.session.ConcurrentSessionFilter.doFilter(ConcurrentSessionFilter.java:129)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter.doFilterInternal(DefaultLogoutPageGeneratingFilter.java:58)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:220)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:206)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.ui.DefaultResourcesFilter.doFilter(DefaultResourcesFilter.java:72)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:227)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:221)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter.doFilterInternal(OAuth2AuthorizationRequestRedirectFilter.java:198)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.ForceEagerSessionCreationFilter.doFilterInternal(ForceEagerSessionCreationFilter.java:45)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:243)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:238)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-20 19:58:55    | INFO  |  -  User logged out: 111851580922821959810
+2025-04-20 21:31:35    | INFO  |  -  Starting DemoApplication using Java 21.0.6 with PID 13568 (E:\M.Sc.CYBER SECURITY\Semester VI\DistributedComputing\DEMO\demo2\demo\target\classes started by SORNAMALYA SIVAKUMAR in E:\M.Sc.CYBER SECURITY\Semester VI\DistributedComputing\DEMO\demo2)
+2025-04-20 21:31:35    | INFO  |  -  No active profile set, falling back to 1 default profile: "default"
+2025-04-20 21:31:36    | ERROR |  -  Application failed to start: Unable to start web server
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:19)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Error creating bean with name 'servletWebServerFactoryCustomizer' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryAutoConfiguration.class]: Unsatisfied dependency expressed through method 'servletWebServerFactoryCustomizer' parameter 0: Error creating bean with name 'server-org.springframework.boot.autoconfigure.web.ServerProperties': Could not bind properties to 'ServerProperties' : prefix=server, ignoreInvalidFields=false, ignoreUnknownFields=true
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:608)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:228)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:191)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167)
+	... 8 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'servletWebServerFactoryCustomizer' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryAutoConfiguration.class]: Unsatisfied dependency expressed through method 'servletWebServerFactoryCustomizer' parameter 0: Error creating bean with name 'server-org.springframework.boot.autoconfigure.web.ServerProperties': Could not bind properties to 'ServerProperties' : prefix=server, ignoreInvalidFields=false, ignoreUnknownFields=true
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1361)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:721)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.getWebServerFactoryCustomizerBeans(WebServerFactoryCustomizerBeanPostProcessor.java:87)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.getCustomizers(WebServerFactoryCustomizerBeanPostProcessor.java:78)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.postProcessBeforeInitialization(WebServerFactoryCustomizerBeanPostProcessor.java:70)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.postProcessBeforeInitialization(WebServerFactoryCustomizerBeanPostProcessor.java:58)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:423)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	... 16 common frames omitted
+Caused by: org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'server-org.springframework.boot.autoconfigure.web.ServerProperties': Could not bind properties to 'ServerProperties' : prefix=server, ignoreInvalidFields=false, ignoreUnknownFields=true
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.bind(ConfigurationPropertiesBindingPostProcessor.java:99)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:79)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:423)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1667)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1555)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 33 common frames omitted
+Caused by: org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'server.servlet.session.cookie.http-only' to java.lang.Boolean
+	at org.springframework.boot.context.properties.bind.Binder.handleBindError(Binder.java:391)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:354)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$5(Binder.java:477)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:100)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:88)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:64)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$6(Binder.java:480)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.tryAdvance(AbstractList.java:708)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.springframework.boot.context.properties.bind.Binder.fromDataObjectBinders(Binder.java:488)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$7(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withIncreasedDepth(Binder.java:597)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withDataObject(Binder.java:583)
+	at org.springframework.boot.context.properties.bind.Binder.bindDataObject(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:418)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:350)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$5(Binder.java:477)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:100)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:88)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:64)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$6(Binder.java:480)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.tryAdvance(AbstractList.java:708)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.springframework.boot.context.properties.bind.Binder.fromDataObjectBinders(Binder.java:488)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$7(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withIncreasedDepth(Binder.java:597)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withDataObject(Binder.java:583)
+	at org.springframework.boot.context.properties.bind.Binder.bindDataObject(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:418)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:350)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$5(Binder.java:477)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:100)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:88)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:64)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$6(Binder.java:480)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.tryAdvance(AbstractList.java:708)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.springframework.boot.context.properties.bind.Binder.fromDataObjectBinders(Binder.java:488)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$7(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withIncreasedDepth(Binder.java:597)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withDataObject(Binder.java:583)
+	at org.springframework.boot.context.properties.bind.Binder.bindDataObject(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:418)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:350)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$5(Binder.java:477)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:100)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:88)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:64)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$6(Binder.java:480)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.tryAdvance(AbstractList.java:708)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.springframework.boot.context.properties.bind.Binder.fromDataObjectBinders(Binder.java:488)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$7(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withIncreasedDepth(Binder.java:597)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withDataObject(Binder.java:583)
+	at org.springframework.boot.context.properties.bind.Binder.bindDataObject(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:418)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:350)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:339)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:269)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:256)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBinder.bind(ConfigurationPropertiesBinder.java:94)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.bind(ConfigurationPropertiesBindingPostProcessor.java:96)
+	... 47 common frames omitted
+Caused by: org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [java.lang.Boolean] for value [true      # JS can't access the cookie]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:47)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:182)
+	at org.springframework.boot.context.properties.bind.BindConverter.convert(BindConverter.java:110)
+	at org.springframework.boot.context.properties.bind.BindConverter.convert(BindConverter.java:101)
+	at org.springframework.boot.context.properties.bind.BindConverter.convert(BindConverter.java:93)
+	at org.springframework.boot.context.properties.bind.Binder.bindProperty(Binder.java:463)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:407)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:350)
+	... 136 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Invalid boolean value 'true      # JS can't access the cookie'
+	at org.springframework.core.convert.support.StringToBooleanConverter.convert(StringToBooleanConverter.java:55)
+	at org.springframework.core.convert.support.StringToBooleanConverter.convert(StringToBooleanConverter.java:33)
+	at org.springframework.core.convert.support.GenericConversionService$ConverterAdapter.convert(GenericConversionService.java:364)
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:41)
+	... 143 common frames omitted
+2025-04-20 21:32:14    | INFO  |  -  Starting DemoApplication using Java 21.0.6 with PID 11032 (E:\M.Sc.CYBER SECURITY\Semester VI\DistributedComputing\DEMO\demo2\demo\target\classes started by SORNAMALYA SIVAKUMAR in E:\M.Sc.CYBER SECURITY\Semester VI\DistributedComputing\DEMO\demo2)
+2025-04-20 21:32:14    | INFO  |  -  No active profile set, falling back to 1 default profile: "default"
+2025-04-20 21:32:16    | ERROR |  -  Application failed to start: Unable to start web server
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:19)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Error creating bean with name 'servletWebServerFactoryCustomizer' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryAutoConfiguration.class]: Unsatisfied dependency expressed through method 'servletWebServerFactoryCustomizer' parameter 0: Error creating bean with name 'server-org.springframework.boot.autoconfigure.web.ServerProperties': Could not bind properties to 'ServerProperties' : prefix=server, ignoreInvalidFields=false, ignoreUnknownFields=true
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:608)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:228)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:191)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167)
+	... 8 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'servletWebServerFactoryCustomizer' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryAutoConfiguration.class]: Unsatisfied dependency expressed through method 'servletWebServerFactoryCustomizer' parameter 0: Error creating bean with name 'server-org.springframework.boot.autoconfigure.web.ServerProperties': Could not bind properties to 'ServerProperties' : prefix=server, ignoreInvalidFields=false, ignoreUnknownFields=true
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1361)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:721)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.getWebServerFactoryCustomizerBeans(WebServerFactoryCustomizerBeanPostProcessor.java:87)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.getCustomizers(WebServerFactoryCustomizerBeanPostProcessor.java:78)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.postProcessBeforeInitialization(WebServerFactoryCustomizerBeanPostProcessor.java:70)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.postProcessBeforeInitialization(WebServerFactoryCustomizerBeanPostProcessor.java:58)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:423)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	... 16 common frames omitted
+Caused by: org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'server-org.springframework.boot.autoconfigure.web.ServerProperties': Could not bind properties to 'ServerProperties' : prefix=server, ignoreInvalidFields=false, ignoreUnknownFields=true
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.bind(ConfigurationPropertiesBindingPostProcessor.java:99)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:79)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:423)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1667)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1555)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 33 common frames omitted
+Caused by: org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'server.servlet.session.cookie.http-only' to java.lang.Boolean
+	at org.springframework.boot.context.properties.bind.Binder.handleBindError(Binder.java:391)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:354)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$5(Binder.java:477)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:100)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:88)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:64)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$6(Binder.java:480)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.tryAdvance(AbstractList.java:708)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.springframework.boot.context.properties.bind.Binder.fromDataObjectBinders(Binder.java:488)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$7(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withIncreasedDepth(Binder.java:597)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withDataObject(Binder.java:583)
+	at org.springframework.boot.context.properties.bind.Binder.bindDataObject(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:418)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:350)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$5(Binder.java:477)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:100)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:88)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:64)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$6(Binder.java:480)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.tryAdvance(AbstractList.java:708)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.springframework.boot.context.properties.bind.Binder.fromDataObjectBinders(Binder.java:488)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$7(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withIncreasedDepth(Binder.java:597)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withDataObject(Binder.java:583)
+	at org.springframework.boot.context.properties.bind.Binder.bindDataObject(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:418)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:350)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$5(Binder.java:477)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:100)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:88)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:64)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$6(Binder.java:480)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.tryAdvance(AbstractList.java:708)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.springframework.boot.context.properties.bind.Binder.fromDataObjectBinders(Binder.java:488)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$7(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withIncreasedDepth(Binder.java:597)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withDataObject(Binder.java:583)
+	at org.springframework.boot.context.properties.bind.Binder.bindDataObject(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:418)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:350)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$5(Binder.java:477)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:100)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:88)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:64)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$6(Binder.java:480)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.tryAdvance(AbstractList.java:708)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.springframework.boot.context.properties.bind.Binder.fromDataObjectBinders(Binder.java:488)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$7(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withIncreasedDepth(Binder.java:597)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withDataObject(Binder.java:583)
+	at org.springframework.boot.context.properties.bind.Binder.bindDataObject(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:418)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:350)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:339)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:269)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:256)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBinder.bind(ConfigurationPropertiesBinder.java:94)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.bind(ConfigurationPropertiesBindingPostProcessor.java:96)
+	... 47 common frames omitted
+Caused by: org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [java.lang.Boolean] for value [true      # JS can't access the cookie]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:47)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:182)
+	at org.springframework.boot.context.properties.bind.BindConverter.convert(BindConverter.java:110)
+	at org.springframework.boot.context.properties.bind.BindConverter.convert(BindConverter.java:101)
+	at org.springframework.boot.context.properties.bind.BindConverter.convert(BindConverter.java:93)
+	at org.springframework.boot.context.properties.bind.Binder.bindProperty(Binder.java:463)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:407)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:350)
+	... 136 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Invalid boolean value 'true      # JS can't access the cookie'
+	at org.springframework.core.convert.support.StringToBooleanConverter.convert(StringToBooleanConverter.java:55)
+	at org.springframework.core.convert.support.StringToBooleanConverter.convert(StringToBooleanConverter.java:33)
+	at org.springframework.core.convert.support.GenericConversionService$ConverterAdapter.convert(GenericConversionService.java:364)
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:41)
+	... 143 common frames omitted
+2025-04-20 21:33:34    | INFO  |  -  Starting DemoApplication using Java 21.0.6 with PID 24320 (E:\M.Sc.CYBER SECURITY\Semester VI\DistributedComputing\DEMO\demo2\demo\target\classes started by SORNAMALYA SIVAKUMAR in E:\M.Sc.CYBER SECURITY\Semester VI\DistributedComputing\DEMO\demo2)
+2025-04-20 21:33:34    | INFO  |  -  No active profile set, falling back to 1 default profile: "default"
+2025-04-20 21:33:36    | ERROR |  -  Application failed to start: Unable to start web server
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:19)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Error creating bean with name 'servletWebServerFactoryCustomizer' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryAutoConfiguration.class]: Unsatisfied dependency expressed through method 'servletWebServerFactoryCustomizer' parameter 0: Error creating bean with name 'server-org.springframework.boot.autoconfigure.web.ServerProperties': Could not bind properties to 'ServerProperties' : prefix=server, ignoreInvalidFields=false, ignoreUnknownFields=true
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:608)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:228)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:191)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167)
+	... 8 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'servletWebServerFactoryCustomizer' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryAutoConfiguration.class]: Unsatisfied dependency expressed through method 'servletWebServerFactoryCustomizer' parameter 0: Error creating bean with name 'server-org.springframework.boot.autoconfigure.web.ServerProperties': Could not bind properties to 'ServerProperties' : prefix=server, ignoreInvalidFields=false, ignoreUnknownFields=true
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1361)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:721)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.getWebServerFactoryCustomizerBeans(WebServerFactoryCustomizerBeanPostProcessor.java:87)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.getCustomizers(WebServerFactoryCustomizerBeanPostProcessor.java:78)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.postProcessBeforeInitialization(WebServerFactoryCustomizerBeanPostProcessor.java:70)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.postProcessBeforeInitialization(WebServerFactoryCustomizerBeanPostProcessor.java:58)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:423)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	... 16 common frames omitted
+Caused by: org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'server-org.springframework.boot.autoconfigure.web.ServerProperties': Could not bind properties to 'ServerProperties' : prefix=server, ignoreInvalidFields=false, ignoreUnknownFields=true
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.bind(ConfigurationPropertiesBindingPostProcessor.java:99)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:79)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:423)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1667)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1555)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 33 common frames omitted
+Caused by: org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'server.servlet.session.cookie.http-only' to java.lang.Boolean
+	at org.springframework.boot.context.properties.bind.Binder.handleBindError(Binder.java:391)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:354)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$5(Binder.java:477)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:100)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:88)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:64)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$6(Binder.java:480)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.tryAdvance(AbstractList.java:708)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.springframework.boot.context.properties.bind.Binder.fromDataObjectBinders(Binder.java:488)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$7(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withIncreasedDepth(Binder.java:597)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withDataObject(Binder.java:583)
+	at org.springframework.boot.context.properties.bind.Binder.bindDataObject(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:418)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:350)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$5(Binder.java:477)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:100)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:88)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:64)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$6(Binder.java:480)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.tryAdvance(AbstractList.java:708)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.springframework.boot.context.properties.bind.Binder.fromDataObjectBinders(Binder.java:488)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$7(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withIncreasedDepth(Binder.java:597)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withDataObject(Binder.java:583)
+	at org.springframework.boot.context.properties.bind.Binder.bindDataObject(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:418)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:350)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$5(Binder.java:477)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:100)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:88)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:64)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$6(Binder.java:480)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.tryAdvance(AbstractList.java:708)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.springframework.boot.context.properties.bind.Binder.fromDataObjectBinders(Binder.java:488)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$7(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withIncreasedDepth(Binder.java:597)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withDataObject(Binder.java:583)
+	at org.springframework.boot.context.properties.bind.Binder.bindDataObject(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:418)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:350)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$5(Binder.java:477)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:100)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:88)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:64)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$6(Binder.java:480)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.tryAdvance(AbstractList.java:708)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.springframework.boot.context.properties.bind.Binder.fromDataObjectBinders(Binder.java:488)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$7(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withIncreasedDepth(Binder.java:597)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withDataObject(Binder.java:583)
+	at org.springframework.boot.context.properties.bind.Binder.bindDataObject(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:418)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:350)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:339)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:269)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:256)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBinder.bind(ConfigurationPropertiesBinder.java:94)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.bind(ConfigurationPropertiesBindingPostProcessor.java:96)
+	... 47 common frames omitted
+Caused by: org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [java.lang.Boolean] for value [true      # JS can't access the cookie]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:47)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:182)
+	at org.springframework.boot.context.properties.bind.BindConverter.convert(BindConverter.java:110)
+	at org.springframework.boot.context.properties.bind.BindConverter.convert(BindConverter.java:101)
+	at org.springframework.boot.context.properties.bind.BindConverter.convert(BindConverter.java:93)
+	at org.springframework.boot.context.properties.bind.Binder.bindProperty(Binder.java:463)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:407)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:350)
+	... 136 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Invalid boolean value 'true      # JS can't access the cookie'
+	at org.springframework.core.convert.support.StringToBooleanConverter.convert(StringToBooleanConverter.java:55)
+	at org.springframework.core.convert.support.StringToBooleanConverter.convert(StringToBooleanConverter.java:33)
+	at org.springframework.core.convert.support.GenericConversionService$ConverterAdapter.convert(GenericConversionService.java:364)
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:41)
+	... 143 common frames omitted
+2025-04-20 21:34:07    | INFO  |  -  Starting DemoApplication using Java 21.0.6 with PID 24332 (E:\M.Sc.CYBER SECURITY\Semester VI\DistributedComputing\DEMO\demo2\demo\target\classes started by SORNAMALYA SIVAKUMAR in E:\M.Sc.CYBER SECURITY\Semester VI\DistributedComputing\DEMO\demo2)
+2025-04-20 21:34:07    | INFO  |  -  No active profile set, falling back to 1 default profile: "default"
+2025-04-20 21:34:09    | ERROR |  -  Application failed to start: Unable to start web server
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:19)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Error creating bean with name 'servletWebServerFactoryCustomizer' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryAutoConfiguration.class]: Unsatisfied dependency expressed through method 'servletWebServerFactoryCustomizer' parameter 0: Error creating bean with name 'server-org.springframework.boot.autoconfigure.web.ServerProperties': Could not bind properties to 'ServerProperties' : prefix=server, ignoreInvalidFields=false, ignoreUnknownFields=true
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:608)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:228)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:191)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167)
+	... 8 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'servletWebServerFactoryCustomizer' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryAutoConfiguration.class]: Unsatisfied dependency expressed through method 'servletWebServerFactoryCustomizer' parameter 0: Error creating bean with name 'server-org.springframework.boot.autoconfigure.web.ServerProperties': Could not bind properties to 'ServerProperties' : prefix=server, ignoreInvalidFields=false, ignoreUnknownFields=true
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1361)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:721)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.getWebServerFactoryCustomizerBeans(WebServerFactoryCustomizerBeanPostProcessor.java:87)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.getCustomizers(WebServerFactoryCustomizerBeanPostProcessor.java:78)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.postProcessBeforeInitialization(WebServerFactoryCustomizerBeanPostProcessor.java:70)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.postProcessBeforeInitialization(WebServerFactoryCustomizerBeanPostProcessor.java:58)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:423)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	... 16 common frames omitted
+Caused by: org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'server-org.springframework.boot.autoconfigure.web.ServerProperties': Could not bind properties to 'ServerProperties' : prefix=server, ignoreInvalidFields=false, ignoreUnknownFields=true
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.bind(ConfigurationPropertiesBindingPostProcessor.java:99)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:79)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:423)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1667)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1555)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 33 common frames omitted
+Caused by: org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'server.servlet.session.cookie.http-only' to java.lang.Boolean
+	at org.springframework.boot.context.properties.bind.Binder.handleBindError(Binder.java:391)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:354)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$5(Binder.java:477)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:100)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:88)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:64)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$6(Binder.java:480)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.tryAdvance(AbstractList.java:708)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.springframework.boot.context.properties.bind.Binder.fromDataObjectBinders(Binder.java:488)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$7(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withIncreasedDepth(Binder.java:597)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withDataObject(Binder.java:583)
+	at org.springframework.boot.context.properties.bind.Binder.bindDataObject(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:418)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:350)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$5(Binder.java:477)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:100)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:88)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:64)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$6(Binder.java:480)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.tryAdvance(AbstractList.java:708)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.springframework.boot.context.properties.bind.Binder.fromDataObjectBinders(Binder.java:488)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$7(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withIncreasedDepth(Binder.java:597)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withDataObject(Binder.java:583)
+	at org.springframework.boot.context.properties.bind.Binder.bindDataObject(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:418)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:350)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$5(Binder.java:477)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:100)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:88)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:64)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$6(Binder.java:480)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.tryAdvance(AbstractList.java:708)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.springframework.boot.context.properties.bind.Binder.fromDataObjectBinders(Binder.java:488)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$7(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withIncreasedDepth(Binder.java:597)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withDataObject(Binder.java:583)
+	at org.springframework.boot.context.properties.bind.Binder.bindDataObject(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:418)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:350)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$5(Binder.java:477)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:100)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:88)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:64)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$6(Binder.java:480)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.tryAdvance(AbstractList.java:708)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.springframework.boot.context.properties.bind.Binder.fromDataObjectBinders(Binder.java:488)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$7(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withIncreasedDepth(Binder.java:597)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withDataObject(Binder.java:583)
+	at org.springframework.boot.context.properties.bind.Binder.bindDataObject(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:418)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:350)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:339)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:269)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:256)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBinder.bind(ConfigurationPropertiesBinder.java:94)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.bind(ConfigurationPropertiesBindingPostProcessor.java:96)
+	... 47 common frames omitted
+Caused by: org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [java.lang.Boolean] for value [true      # JS can't access the cookie]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:47)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:182)
+	at org.springframework.boot.context.properties.bind.BindConverter.convert(BindConverter.java:110)
+	at org.springframework.boot.context.properties.bind.BindConverter.convert(BindConverter.java:101)
+	at org.springframework.boot.context.properties.bind.BindConverter.convert(BindConverter.java:93)
+	at org.springframework.boot.context.properties.bind.Binder.bindProperty(Binder.java:463)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:407)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:350)
+	... 136 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Invalid boolean value 'true      # JS can't access the cookie'
+	at org.springframework.core.convert.support.StringToBooleanConverter.convert(StringToBooleanConverter.java:55)
+	at org.springframework.core.convert.support.StringToBooleanConverter.convert(StringToBooleanConverter.java:33)
+	at org.springframework.core.convert.support.GenericConversionService$ConverterAdapter.convert(GenericConversionService.java:364)
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:41)
+	... 143 common frames omitted
+2025-04-20 21:35:34    | INFO  |  -  Starting DemoApplication using Java 21.0.6 with PID 11152 (E:\M.Sc.CYBER SECURITY\Semester VI\DistributedComputing\DEMO\demo2\demo\target\classes started by SORNAMALYA SIVAKUMAR in E:\M.Sc.CYBER SECURITY\Semester VI\DistributedComputing\DEMO\demo2)
+2025-04-20 21:35:34    | INFO  |  -  No active profile set, falling back to 1 default profile: "default"
+2025-04-20 21:35:36    | ERROR |  -  Application failed to start: Unable to start web server
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:19)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Error creating bean with name 'servletWebServerFactoryCustomizer' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryAutoConfiguration.class]: Unsatisfied dependency expressed through method 'servletWebServerFactoryCustomizer' parameter 0: Error creating bean with name 'server-org.springframework.boot.autoconfigure.web.ServerProperties': Could not bind properties to 'ServerProperties' : prefix=server, ignoreInvalidFields=false, ignoreUnknownFields=true
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:608)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:228)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:191)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167)
+	... 8 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'servletWebServerFactoryCustomizer' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryAutoConfiguration.class]: Unsatisfied dependency expressed through method 'servletWebServerFactoryCustomizer' parameter 0: Error creating bean with name 'server-org.springframework.boot.autoconfigure.web.ServerProperties': Could not bind properties to 'ServerProperties' : prefix=server, ignoreInvalidFields=false, ignoreUnknownFields=true
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1361)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:721)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.getWebServerFactoryCustomizerBeans(WebServerFactoryCustomizerBeanPostProcessor.java:87)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.getCustomizers(WebServerFactoryCustomizerBeanPostProcessor.java:78)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.postProcessBeforeInitialization(WebServerFactoryCustomizerBeanPostProcessor.java:70)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.postProcessBeforeInitialization(WebServerFactoryCustomizerBeanPostProcessor.java:58)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:423)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	... 16 common frames omitted
+Caused by: org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'server-org.springframework.boot.autoconfigure.web.ServerProperties': Could not bind properties to 'ServerProperties' : prefix=server, ignoreInvalidFields=false, ignoreUnknownFields=true
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.bind(ConfigurationPropertiesBindingPostProcessor.java:99)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:79)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:423)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1667)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1555)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 33 common frames omitted
+Caused by: org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'server.servlet.session.cookie.http-only' to java.lang.Boolean
+	at org.springframework.boot.context.properties.bind.Binder.handleBindError(Binder.java:391)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:354)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$5(Binder.java:477)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:100)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:88)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:64)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$6(Binder.java:480)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.tryAdvance(AbstractList.java:708)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.springframework.boot.context.properties.bind.Binder.fromDataObjectBinders(Binder.java:488)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$7(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withIncreasedDepth(Binder.java:597)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withDataObject(Binder.java:583)
+	at org.springframework.boot.context.properties.bind.Binder.bindDataObject(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:418)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:350)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$5(Binder.java:477)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:100)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:88)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:64)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$6(Binder.java:480)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.tryAdvance(AbstractList.java:708)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.springframework.boot.context.properties.bind.Binder.fromDataObjectBinders(Binder.java:488)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$7(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withIncreasedDepth(Binder.java:597)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withDataObject(Binder.java:583)
+	at org.springframework.boot.context.properties.bind.Binder.bindDataObject(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:418)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:350)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$5(Binder.java:477)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:100)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:88)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:64)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$6(Binder.java:480)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.tryAdvance(AbstractList.java:708)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.springframework.boot.context.properties.bind.Binder.fromDataObjectBinders(Binder.java:488)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$7(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withIncreasedDepth(Binder.java:597)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withDataObject(Binder.java:583)
+	at org.springframework.boot.context.properties.bind.Binder.bindDataObject(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:418)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:350)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$5(Binder.java:477)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:100)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:88)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:64)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$6(Binder.java:480)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.tryAdvance(AbstractList.java:708)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.springframework.boot.context.properties.bind.Binder.fromDataObjectBinders(Binder.java:488)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$7(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withIncreasedDepth(Binder.java:597)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withDataObject(Binder.java:583)
+	at org.springframework.boot.context.properties.bind.Binder.bindDataObject(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:418)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:350)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:339)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:269)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:256)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBinder.bind(ConfigurationPropertiesBinder.java:94)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.bind(ConfigurationPropertiesBindingPostProcessor.java:96)
+	... 47 common frames omitted
+Caused by: org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [java.lang.Boolean] for value [true      # JS can't access the cookie]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:47)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:182)
+	at org.springframework.boot.context.properties.bind.BindConverter.convert(BindConverter.java:110)
+	at org.springframework.boot.context.properties.bind.BindConverter.convert(BindConverter.java:101)
+	at org.springframework.boot.context.properties.bind.BindConverter.convert(BindConverter.java:93)
+	at org.springframework.boot.context.properties.bind.Binder.bindProperty(Binder.java:463)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:407)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:350)
+	... 136 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Invalid boolean value 'true      # JS can't access the cookie'
+	at org.springframework.core.convert.support.StringToBooleanConverter.convert(StringToBooleanConverter.java:55)
+	at org.springframework.core.convert.support.StringToBooleanConverter.convert(StringToBooleanConverter.java:33)
+	at org.springframework.core.convert.support.GenericConversionService$ConverterAdapter.convert(GenericConversionService.java:364)
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:41)
+	... 143 common frames omitted
+2025-04-20 21:36:21    | INFO  |  -  Starting DemoApplication using Java 21.0.6 with PID 25380 (E:\M.Sc.CYBER SECURITY\Semester VI\DistributedComputing\DEMO\demo2\demo\target\classes started by SORNAMALYA SIVAKUMAR in E:\M.Sc.CYBER SECURITY\Semester VI\DistributedComputing\DEMO\demo2)
+2025-04-20 21:36:21    | INFO  |  -  No active profile set, falling back to 1 default profile: "default"
+2025-04-20 21:36:22    | ERROR |  -  Application failed to start: Unable to start web server
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:19)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Error creating bean with name 'servletWebServerFactoryCustomizer' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryAutoConfiguration.class]: Unsatisfied dependency expressed through method 'servletWebServerFactoryCustomizer' parameter 0: Error creating bean with name 'server-org.springframework.boot.autoconfigure.web.ServerProperties': Could not bind properties to 'ServerProperties' : prefix=server, ignoreInvalidFields=false, ignoreUnknownFields=true
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:608)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:228)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:191)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167)
+	... 8 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'servletWebServerFactoryCustomizer' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryAutoConfiguration.class]: Unsatisfied dependency expressed through method 'servletWebServerFactoryCustomizer' parameter 0: Error creating bean with name 'server-org.springframework.boot.autoconfigure.web.ServerProperties': Could not bind properties to 'ServerProperties' : prefix=server, ignoreInvalidFields=false, ignoreUnknownFields=true
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1361)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:721)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.getWebServerFactoryCustomizerBeans(WebServerFactoryCustomizerBeanPostProcessor.java:87)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.getCustomizers(WebServerFactoryCustomizerBeanPostProcessor.java:78)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.postProcessBeforeInitialization(WebServerFactoryCustomizerBeanPostProcessor.java:70)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.postProcessBeforeInitialization(WebServerFactoryCustomizerBeanPostProcessor.java:58)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:423)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	... 16 common frames omitted
+Caused by: org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'server-org.springframework.boot.autoconfigure.web.ServerProperties': Could not bind properties to 'ServerProperties' : prefix=server, ignoreInvalidFields=false, ignoreUnknownFields=true
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.bind(ConfigurationPropertiesBindingPostProcessor.java:99)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:79)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:423)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1667)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1555)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 33 common frames omitted
+Caused by: org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'server.servlet.session.cookie.http-only' to java.lang.Boolean
+	at org.springframework.boot.context.properties.bind.Binder.handleBindError(Binder.java:391)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:354)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$5(Binder.java:477)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:100)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:88)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:64)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$6(Binder.java:480)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.tryAdvance(AbstractList.java:708)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.springframework.boot.context.properties.bind.Binder.fromDataObjectBinders(Binder.java:488)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$7(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withIncreasedDepth(Binder.java:597)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withDataObject(Binder.java:583)
+	at org.springframework.boot.context.properties.bind.Binder.bindDataObject(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:418)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:350)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$5(Binder.java:477)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:100)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:88)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:64)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$6(Binder.java:480)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.tryAdvance(AbstractList.java:708)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.springframework.boot.context.properties.bind.Binder.fromDataObjectBinders(Binder.java:488)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$7(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withIncreasedDepth(Binder.java:597)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withDataObject(Binder.java:583)
+	at org.springframework.boot.context.properties.bind.Binder.bindDataObject(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:418)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:350)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$5(Binder.java:477)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:100)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:88)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:64)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$6(Binder.java:480)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.tryAdvance(AbstractList.java:708)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.springframework.boot.context.properties.bind.Binder.fromDataObjectBinders(Binder.java:488)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$7(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withIncreasedDepth(Binder.java:597)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withDataObject(Binder.java:583)
+	at org.springframework.boot.context.properties.bind.Binder.bindDataObject(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:418)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:350)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$5(Binder.java:477)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:100)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:88)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:64)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$6(Binder.java:480)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.tryAdvance(AbstractList.java:708)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.springframework.boot.context.properties.bind.Binder.fromDataObjectBinders(Binder.java:488)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$7(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withIncreasedDepth(Binder.java:597)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withDataObject(Binder.java:583)
+	at org.springframework.boot.context.properties.bind.Binder.bindDataObject(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:418)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:350)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:339)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:269)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:256)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBinder.bind(ConfigurationPropertiesBinder.java:94)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.bind(ConfigurationPropertiesBindingPostProcessor.java:96)
+	... 47 common frames omitted
+Caused by: org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [java.lang.Boolean] for value [true      # JS can't access the cookie]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:47)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:182)
+	at org.springframework.boot.context.properties.bind.BindConverter.convert(BindConverter.java:110)
+	at org.springframework.boot.context.properties.bind.BindConverter.convert(BindConverter.java:101)
+	at org.springframework.boot.context.properties.bind.BindConverter.convert(BindConverter.java:93)
+	at org.springframework.boot.context.properties.bind.Binder.bindProperty(Binder.java:463)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:407)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:350)
+	... 136 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Invalid boolean value 'true      # JS can't access the cookie'
+	at org.springframework.core.convert.support.StringToBooleanConverter.convert(StringToBooleanConverter.java:55)
+	at org.springframework.core.convert.support.StringToBooleanConverter.convert(StringToBooleanConverter.java:33)
+	at org.springframework.core.convert.support.GenericConversionService$ConverterAdapter.convert(GenericConversionService.java:364)
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:41)
+	... 143 common frames omitted
+2025-04-20 21:37:18    | INFO  |  -  Starting DemoApplication using Java 21.0.6 with PID 14072 (E:\M.Sc.CYBER SECURITY\Semester VI\DistributedComputing\DEMO\demo2\demo\target\classes started by SORNAMALYA SIVAKUMAR in E:\M.Sc.CYBER SECURITY\Semester VI\DistributedComputing\DEMO\demo2)
+2025-04-20 21:37:18    | INFO  |  -  No active profile set, falling back to 1 default profile: "default"
+2025-04-20 21:37:21    | ERROR |  -  Application failed to start: Unable to start web server
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:19)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Error creating bean with name 'servletWebServerFactoryCustomizer' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryAutoConfiguration.class]: Unsatisfied dependency expressed through method 'servletWebServerFactoryCustomizer' parameter 0: Error creating bean with name 'server-org.springframework.boot.autoconfigure.web.ServerProperties': Could not bind properties to 'ServerProperties' : prefix=server, ignoreInvalidFields=false, ignoreUnknownFields=true
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:608)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:228)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:191)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167)
+	... 8 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'servletWebServerFactoryCustomizer' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryAutoConfiguration.class]: Unsatisfied dependency expressed through method 'servletWebServerFactoryCustomizer' parameter 0: Error creating bean with name 'server-org.springframework.boot.autoconfigure.web.ServerProperties': Could not bind properties to 'ServerProperties' : prefix=server, ignoreInvalidFields=false, ignoreUnknownFields=true
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1361)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:721)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.getWebServerFactoryCustomizerBeans(WebServerFactoryCustomizerBeanPostProcessor.java:87)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.getCustomizers(WebServerFactoryCustomizerBeanPostProcessor.java:78)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.postProcessBeforeInitialization(WebServerFactoryCustomizerBeanPostProcessor.java:70)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.postProcessBeforeInitialization(WebServerFactoryCustomizerBeanPostProcessor.java:58)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:423)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	... 16 common frames omitted
+Caused by: org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'server-org.springframework.boot.autoconfigure.web.ServerProperties': Could not bind properties to 'ServerProperties' : prefix=server, ignoreInvalidFields=false, ignoreUnknownFields=true
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.bind(ConfigurationPropertiesBindingPostProcessor.java:99)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:79)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:423)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1667)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1555)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 33 common frames omitted
+Caused by: org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'server.servlet.session.cookie.http-only' to java.lang.Boolean
+	at org.springframework.boot.context.properties.bind.Binder.handleBindError(Binder.java:391)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:354)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$5(Binder.java:477)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:100)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:88)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:64)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$6(Binder.java:480)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.tryAdvance(AbstractList.java:708)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.springframework.boot.context.properties.bind.Binder.fromDataObjectBinders(Binder.java:488)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$7(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withIncreasedDepth(Binder.java:597)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withDataObject(Binder.java:583)
+	at org.springframework.boot.context.properties.bind.Binder.bindDataObject(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:418)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:350)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$5(Binder.java:477)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:100)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:88)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:64)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$6(Binder.java:480)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.tryAdvance(AbstractList.java:708)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.springframework.boot.context.properties.bind.Binder.fromDataObjectBinders(Binder.java:488)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$7(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withIncreasedDepth(Binder.java:597)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withDataObject(Binder.java:583)
+	at org.springframework.boot.context.properties.bind.Binder.bindDataObject(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:418)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:350)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$5(Binder.java:477)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:100)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:88)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:64)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$6(Binder.java:480)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.tryAdvance(AbstractList.java:708)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.springframework.boot.context.properties.bind.Binder.fromDataObjectBinders(Binder.java:488)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$7(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withIncreasedDepth(Binder.java:597)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withDataObject(Binder.java:583)
+	at org.springframework.boot.context.properties.bind.Binder.bindDataObject(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:418)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:350)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$5(Binder.java:477)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:100)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:88)
+	at org.springframework.boot.context.properties.bind.JavaBeanBinder.bind(JavaBeanBinder.java:64)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$6(Binder.java:480)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.tryAdvance(AbstractList.java:708)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.springframework.boot.context.properties.bind.Binder.fromDataObjectBinders(Binder.java:488)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindDataObject$7(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withIncreasedDepth(Binder.java:597)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withDataObject(Binder.java:583)
+	at org.springframework.boot.context.properties.bind.Binder.bindDataObject(Binder.java:479)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:418)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:350)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:339)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:269)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:256)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBinder.bind(ConfigurationPropertiesBinder.java:94)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.bind(ConfigurationPropertiesBindingPostProcessor.java:96)
+	... 47 common frames omitted
+Caused by: org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [java.lang.Boolean] for value [true      # JS can't access the cookie]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:47)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:182)
+	at org.springframework.boot.context.properties.bind.BindConverter.convert(BindConverter.java:110)
+	at org.springframework.boot.context.properties.bind.BindConverter.convert(BindConverter.java:101)
+	at org.springframework.boot.context.properties.bind.BindConverter.convert(BindConverter.java:93)
+	at org.springframework.boot.context.properties.bind.Binder.bindProperty(Binder.java:463)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:407)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:350)
+	... 136 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Invalid boolean value 'true      # JS can't access the cookie'
+	at org.springframework.core.convert.support.StringToBooleanConverter.convert(StringToBooleanConverter.java:55)
+	at org.springframework.core.convert.support.StringToBooleanConverter.convert(StringToBooleanConverter.java:33)
+	at org.springframework.core.convert.support.GenericConversionService$ConverterAdapter.convert(GenericConversionService.java:364)
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:41)
+	... 143 common frames omitted
+2025-04-20 21:39:33    | INFO  |  -  Starting DemoApplication using Java 21.0.6 with PID 3788 (E:\M.Sc.CYBER SECURITY\Semester VI\DistributedComputing\DEMO\demo2\demo\target\classes started by SORNAMALYA SIVAKUMAR in E:\M.Sc.CYBER SECURITY\Semester VI\DistributedComputing\DEMO\demo2)
+2025-04-20 21:39:33    | INFO  |  -  No active profile set, falling back to 1 default profile: "default"
+2025-04-20 21:39:35    | INFO  |  -  MappingMongoConverter initialized successfully
+2025-04-20 21:39:36    | INFO  |  -  Initializing EmbeddingStoreService with dimensions: 384
+2025-04-20 21:39:37    | INFO  |  -  Started DemoApplication in 4.168 seconds (process running for 4.799)
+2025-04-20 21:39:37    | INFO  |  -  DemoApplication started successfully.
+2025-04-20 21:42:30    | INFO  |  -  Starting DemoApplication using Java 21.0.6 with PID 4208 (E:\M.Sc.CYBER SECURITY\Semester VI\DistributedComputing\DEMO\demo2\demo\target\classes started by SORNAMALYA SIVAKUMAR in E:\M.Sc.CYBER SECURITY\Semester VI\DistributedComputing\DEMO\demo2)
+2025-04-20 21:42:30    | INFO  |  -  No active profile set, falling back to 1 default profile: "default"
+2025-04-20 21:42:33    | INFO  |  -  MappingMongoConverter initialized successfully
+2025-04-20 21:42:33    | INFO  |  -  Initializing EmbeddingStoreService with dimensions: 384
+2025-04-20 21:42:35    | INFO  |  -  Started DemoApplication in 5.053 seconds (process running for 5.75)
+2025-04-20 21:42:35    | INFO  |  -  DemoApplication started successfully.
+2025-04-20 21:49:27    | INFO  |  -  Starting DemoApplication using Java 21.0.6 with PID 12680 (E:\M.Sc.CYBER SECURITY\Semester VI\DistributedComputing\DEMO\demo2\demo\target\classes started by SORNAMALYA SIVAKUMAR in E:\M.Sc.CYBER SECURITY\Semester VI\DistributedComputing\DEMO\demo2)
+2025-04-20 21:49:27    | INFO  |  -  No active profile set, falling back to 1 default profile: "default"
+2025-04-20 21:49:30    | INFO  |  -  MappingMongoConverter initialized successfully
+2025-04-20 21:49:30    | INFO  |  -  Initializing EmbeddingStoreService with dimensions: 384
+2025-04-20 21:49:31    | INFO  |  -  Started DemoApplication in 4.353 seconds (process running for 5.005)
+2025-04-20 21:49:31    | INFO  |  -  DemoApplication started successfully.
+2025-04-20 22:02:53    | INFO  |  -  Starting DemoApplication using Java 21.0.6 with PID 7560 (E:\M.Sc.CYBER SECURITY\Semester VI\DistributedComputing\DEMO\demo2\demo\target\classes started by SORNAMALYA SIVAKUMAR in E:\M.Sc.CYBER SECURITY\Semester VI\DistributedComputing\DEMO\demo2)
+2025-04-20 22:02:53    | INFO  |  -  No active profile set, falling back to 1 default profile: "default"
+2025-04-20 22:02:56    | INFO  |  -  MappingMongoConverter initialized successfully
+2025-04-20 22:02:56    | INFO  |  -  Initializing EmbeddingStoreService with dimensions: 384
+2025-04-20 22:02:57    | ERROR |  -  Application failed to start: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through method 'setFilterChains' parameter 0: Error creating bean with name 'securityFilterChain' defined in class path resource [com/example/demo/config/SecurityConfig.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: No qualifying bean of type 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository' available
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through method 'setFilterChains' parameter 0: Error creating bean with name 'securityFilterChain' defined in class path resource [com/example/demo/config/SecurityConfig.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: No qualifying bean of type 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository' available
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:896)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:849)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1445)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1155)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1121)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1056)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:20)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityFilterChain' defined in class path resource [com/example/demo/config/SecurityConfig.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: No qualifying bean of type 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository' available
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1361)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1919)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1883)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeanCollection(DefaultListableBeanFactory.java:1773)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1741)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1616)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1555)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:888)
+	... 22 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: No qualifying bean of type 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository' available
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:199)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:88)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:168)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 39 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:373)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:364)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1290)
+	at org.springframework.security.config.annotation.web.configurers.oauth2.client.OAuth2ClientConfigurerUtils.getClientRegistrationRepositoryBean(OAuth2ClientConfigurerUtils.java:58)
+	at org.springframework.security.config.annotation.web.configurers.oauth2.client.OAuth2ClientConfigurerUtils.getClientRegistrationRepository(OAuth2ClientConfigurerUtils.java:50)
+	at org.springframework.security.config.annotation.web.configurers.oauth2.client.OAuth2LoginConfigurer.getClientRegistrationRepository(OAuth2LoginConfigurer.java:449)
+	at org.springframework.security.config.annotation.web.configurers.oauth2.client.OAuth2LoginConfigurer.init(OAuth2LoginConfigurer.java:349)
+	at org.springframework.security.config.annotation.web.configurers.oauth2.client.OAuth2LoginConfigurer.init(OAuth2LoginConfigurer.java:161)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.init(AbstractConfiguredSecurityBuilder.java:387)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:349)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38)
+	at com.example.demo.config.SecurityConfig.securityFilterChain(SecurityConfig.java:85)
+	at com.example.demo.config.SecurityConfig$$SpringCGLIB$$0.CGLIB$securityFilterChain$0(<generated>)
+	at com.example.demo.config.SecurityConfig$$SpringCGLIB$$FastClass$$1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:370)
+	at com.example.demo.config.SecurityConfig$$SpringCGLIB$$0.securityFilterChain(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:171)
+	... 42 common frames omitted
+2025-04-20 22:07:36    | INFO  |  -  Starting DemoApplication using Java 21.0.6 with PID 25300 (E:\M.Sc.CYBER SECURITY\Semester VI\DistributedComputing\DEMO\demo2\demo\target\classes started by SORNAMALYA SIVAKUMAR in E:\M.Sc.CYBER SECURITY\Semester VI\DistributedComputing\DEMO\demo2)
+2025-04-20 22:07:36    | INFO  |  -  No active profile set, falling back to 1 default profile: "default"
+2025-04-20 22:07:39    | INFO  |  -  MappingMongoConverter initialized successfully
+2025-04-20 22:07:39    | INFO  |  -  Initializing EmbeddingStoreService with dimensions: 384
+2025-04-20 22:07:40    | INFO  |  -  Started DemoApplication in 4.43 seconds (process running for 5.092)
+2025-04-20 22:07:40    | ERROR |  -  Application failed to start: Could not find /.env on the classpath
+io.github.cdimascio.dotenv.DotenvException: Could not find /.env on the classpath
+	at io.github.cdimascio.dotenv.internal.ClasspathHelper.loadFileFromClasspath(ClasspathHelper.java:23)
+	at io.github.cdimascio.dotenv.internal.DotenvReader.read(DotenvReader.java:43)
+	at io.github.cdimascio.dotenv.internal.DotenvParser.lines(DotenvParser.java:52)
+	at io.github.cdimascio.dotenv.internal.DotenvParser.parse(DotenvParser.java:34)
+	at io.github.cdimascio.dotenv.DotenvBuilder.load(DotenvBuilder.java:77)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:21)
+	Suppressed: io.github.cdimascio.dotenv.DotenvException: Could not find .\.env on the file system (working directory: E:\M.Sc.CYBER SECURITY\Semester VI\DistributedComputing\DEMO\demo2)
+		at io.github.cdimascio.dotenv.internal.DotenvReader.read(DotenvReader.java:48)
+		... 4 common frames omitted
+2025-04-20 22:09:24    | INFO  |  -  Starting DemoApplication using Java 21.0.6 with PID 25564 (E:\M.Sc.CYBER SECURITY\Semester VI\DistributedComputing\DEMO\demo2\demo\target\classes started by SORNAMALYA SIVAKUMAR in E:\M.Sc.CYBER SECURITY\Semester VI\DistributedComputing\DEMO\demo2)
+2025-04-20 22:09:24    | INFO  |  -  No active profile set, falling back to 1 default profile: "default"
+2025-04-20 22:09:26    | INFO  |  -  MappingMongoConverter initialized successfully
+2025-04-20 22:09:26    | INFO  |  -  Initializing EmbeddingStoreService with dimensions: 384
+2025-04-20 22:09:27    | INFO  |  -  Started DemoApplication in 4.387 seconds (process running for 5.115)
+2025-04-20 22:09:27    | INFO  |  -  DemoApplication started successfully.
+2025-04-20 22:14:50    | INFO  |  -  Starting DemoApplication using Java 21.0.6 with PID 20892 (E:\M.Sc.CYBER SECURITY\Semester VI\DistributedComputing\DEMO\demo2\demo\target\classes started by SORNAMALYA SIVAKUMAR in E:\M.Sc.CYBER SECURITY\Semester VI\DistributedComputing\DEMO\demo2)
+2025-04-20 22:14:50    | INFO  |  -  No active profile set, falling back to 1 default profile: "default"
+2025-04-20 22:14:52    | INFO  |  -  MappingMongoConverter initialized successfully
+2025-04-20 22:14:52    | INFO  |  -  Initializing EmbeddingStoreService with dimensions: 384
+2025-04-20 22:14:53    | INFO  |  -  Started DemoApplication in 3.418 seconds (process running for 3.883)
+2025-04-20 22:14:53    | INFO  |  -  DemoApplication started successfully.
+2025-04-20 22:26:29    | INFO  |  -  Starting DemoApplication using Java 21.0.6 with PID 2840 (E:\M.Sc.CYBER SECURITY\Semester VI\DistributedComputing\DEMO\demo2\demo\target\classes started by SORNAMALYA SIVAKUMAR in E:\M.Sc.CYBER SECURITY\Semester VI\DistributedComputing\DEMO\demo2)
+2025-04-20 22:26:29    | INFO  |  -  No active profile set, falling back to 1 default profile: "default"
+2025-04-20 22:26:31    | INFO  |  -  MappingMongoConverter initialized successfully
+2025-04-20 22:26:31    | INFO  |  -  Initializing EmbeddingStoreService with dimensions: 384
+2025-04-20 22:26:32    | INFO  |  -  Started DemoApplication in 3.906 seconds (process running for 4.374)
+2025-04-20 22:26:32    | INFO  |  -  DemoApplication started successfully.
